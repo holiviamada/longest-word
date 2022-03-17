@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "afadb67af47391d8bf29552813fe0887cbfeebba3093797a61681f1472da5205"
+            "sha256": "26909ff618d50d9fd6a86dfc26724a2da18cca9491007c01b20f4d50c34eb426"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,24 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "gunicorn": {
+            "hashes": [
+                "sha256:9dcc4547dbb1cb284accfb15ab5667a0e5d1881cc443e0677b4882a4067a807e",
+                "sha256:e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8"
+            ],
+            "index": "pypi",
+            "version": "==20.1.0"
+        },
+        "setuptools": {
+            "hashes": [
+                "sha256:6599055eeb23bfef457d5605d33a4d68804266e6cb430b0fb12417c5efeae36c",
+                "sha256:782ef48d58982ddb49920c11a0c5c9c0b02e7d7d1c2ad0aa44e1a1e133051c96"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==60.10.0"
+        }
+    },
     "develop": {
         "astroid": {
             "hashes": [
@@ -110,11 +127,11 @@
         },
         "setuptools": {
             "hashes": [
-                "sha256:2347b2b432c891a863acadca2da9ac101eae6169b1d3dfee2ec605ecd50dbfe5",
-                "sha256:e4f30b9f84e5ab3decf945113119649fec09c1fc3507c6ebffec75646c56e62b"
+                "sha256:6599055eeb23bfef457d5605d33a4d68804266e6cb430b0fb12417c5efeae36c",
+                "sha256:782ef48d58982ddb49920c11a0c5c9c0b02e7d7d1c2ad0aa44e1a1e133051c96"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==60.9.3"
+            "version": "==60.10.0"
         },
         "toml": {
             "hashes": [
